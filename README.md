@@ -34,7 +34,7 @@ The step involves evaluating the YOLO model's performance on car detection. The 
 Load and execute YOLO on your image dataset. Et voila!
 
 ## Usage
-1. Install dependencies:
+1. Install the data_model folder.
 2. Download the pre-trained YOLO weights and place them in the weights directory.
 3. Execute the steps mentioned above for filtering boxes, non-max suppression, and evaluation.
 
