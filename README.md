@@ -15,16 +15,19 @@ This project implements a car detection system using YOLO (You Only Look Once), 
 10. yad2k (Yet Another DarkNet 2 Keras)- to import YOLO
 
 ## Working
-### 1. yolo_filter_boxes
+### 1. Installing Packages
+Ensure you have the required packages installed.
+
+### 2. yolo_filter_boxes
 The yolo_filter_boxes module is responsible for filtering bounding boxes predicted by the YOLO model. This step ensures that only relevant and accurate bounding boxes around cars are retained.
 
-### 2. Non-max Suppression using IoU (Intersection over Union)
+### 3. Non-max Suppression using IoU (Intersection over Union)
 Non-max suppression is employed to eliminate redundant bounding boxes by comparing their Intersection over Union (IoU). This step helps in keeping the most relevant and non-overlapping bounding boxes.
 
-### 3. yolo_non_max_suppression
+### 4. yolo_non_max_suppression
 The yolo_non_max_suppression script implements non-max suppression using IoU. Execute this script to perform non-max suppression on the filtered bounding boxes.
 
-### 4. yolo_eval
+### 5. yolo_eval
 The final step involves evaluating the YOLO model's performance on car detection. The yolo_eval script calculates precision, recall, and F1 score based on the ground truth and predicted bounding boxes.
 
 ## Usage
