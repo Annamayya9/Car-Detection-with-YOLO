@@ -28,7 +28,10 @@ Non-max suppression is employed to eliminate redundant bounding boxes by compari
 The yolo_non_max_suppression script implements non-max suppression using IoU. Execute this script to perform non-max suppression on the filtered bounding boxes.
 
 ### 5. yolo_eval
-The final step involves evaluating the YOLO model's performance on car detection. The yolo_eval script calculates precision, recall, and F1 score based on the ground truth and predicted bounding boxes.
+The step involves evaluating the YOLO model's performance on car detection. The yolo_eval script calculates precision, recall, and F1 score based on the ground truth and predicted bounding boxes.
+
+### 6. Test YOLO on images
+Load and execute YOLO on your image dataset. Et voila!
 
 ## Usage
 1. Install dependencies:
