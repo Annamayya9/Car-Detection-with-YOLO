@@ -14,6 +14,11 @@ This project implements a car detection system using YOLO (You Only Look Once), 
 9. scipy
 10. yad2k (Yet Another DarkNet 2 Keras)- to import YOLO
 
+## Usage
+1. Install the data_model folder and the IPYNB file.
+2. Download the pre-trained YOLO weights and place them in the weights directory.
+3. Execute the steps mentioned above for filtering boxes, non-max suppression, and evaluation.
+
 ## Working
 ### 1. Installing Packages
 Ensure you have the required packages installed.
@@ -32,11 +37,6 @@ The step involves evaluating the YOLO model's performance on car detection. The 
 
 ### 6. Test YOLO on images
 Load and execute YOLO on your image dataset. Et voila!
-
-## Usage
-1. Install the data_model folder.
-2. Download the pre-trained YOLO weights and place them in the weights directory.
-3. Execute the steps mentioned above for filtering boxes, non-max suppression, and evaluation.
 
 ## Acknowledgments
 Special thanks to the YOLO project for providing a powerful and efficient object detection model.
